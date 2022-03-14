@@ -1,0 +1,8 @@
+/* Pour savoir quel paquet babel doit utiliser */
+
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}

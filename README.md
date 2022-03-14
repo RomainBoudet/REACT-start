@@ -11,7 +11,7 @@ Understand REACT achitecture and webpack configuration
 * Pour les performances, on délegue a REACT et son Virtual-Dom (comparaison du dom avec un dom conservé en mémoire pour mettre a jour les composants nécéssaire !)
 
 #### Rappel yarn : 
-* ``npm init` = `yarn init`
+* `npm init` = `yarn init`
 * `npm install` = `yarn install`
 * `npm install react --save` = `arn add react`
 * `npm uninstall react --save` = `yarn remove react`
@@ -31,8 +31,14 @@ Understand REACT achitecture and webpack configuration
 
 ### Webpack est une dépendance de dev, pas besoin sur le serveur, mais nécéssaire à la production de l'app :
 
-`npm install webpack --save_dev`
+`npm install webpack webpack-cli --save_dev`
 
 
 Dans mon architecture le dossier 'src' contient la source de mon code, dans lequel je vais coder.
 Et le dossier 'dist' qui contient mon code prêt a être envoyer sur le server, mon produit fini et optimiser.
+
+#### installation de babel : `npm install @babel/core @babel/preset-env @babel/preset-react babel-loader`
+* @babel/core : Babel de base, nécéssaire dans tous les cas.
+* @babel/preset-env : Module pour transpiler de ES6 en ES5
+* @babel/preset-react : pour transiler du JSX
+* babel-loader Pour faire le lien entre Webpack et Babel !
