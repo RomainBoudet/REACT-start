@@ -42,3 +42,8 @@ Et le dossier 'dist' qui contient mon code prêt a être envoyer sur le server, 
 * @babel/preset-env : Module pour transpiler de ES6 en ES5
 * @babel/preset-react : pour transiler du JSX
 * babel-loader Pour faire le lien entre Webpack et Babel !
+
+
+#### Installation de [dev-server](https://webpack.js.org/configuration/dev-server/) : 
+Je peux aussi installer dev-server `npm install webpack-dev-server --save-dev`, qui me permet d'être éfficace
+https://webpack.js.org/configuration/dev-server/
